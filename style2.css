@@ -1,0 +1,106 @@
+.container{
+    background-image: url("./img/login_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin-left: 10%;
+    padding-inline: 5%;
+    padding-block: 2%;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 20em;
+}
+span{
+    color: #ff8800;
+}
+.input1{
+    display: flex;
+    margin-top: 4%;
+}
+.label{
+    width: 6em;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #336699;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.back{
+    display: flex;
+    justify-content: end;
+}
+.back a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.back a:hover{
+    color: rgba(185, 2, 2, 0.733);
+    text-decoration: none;
+}
+input{
+    width: 70%;
+    height: 3vh;
+    padding-left: 3%;
+    margin-left: auto;
+}
+.forgot{
+    margin-left: auto;
+}
+ul{
+    list-style: none;
+    padding-left: 0%;
+}
+ul li{
+    display: flex;
+    align-items: center;
+}
+ul input{
+    width: 1.5em;
+}
+ul label{
+    margin-left: 5%;
+    width: 8em;
+}
+button{
+    width: 10em;
+    height: 4vh;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    background-color: lightblue;
+}
+button a{
+    color: white;
+}
+button:hover{
+    background-color: rgb(95, 188, 219);
+    cursor: pointer;
+}
+button a:hover{
+    text-decoration: none;
+    color: white;
+}
+@media (min-width: 2000px) {
+    .box{
+        margin-left: 20%;
+        font-size: 2em;
+    }
+}
+@media (max-width: 600px) {
+    .box{
+        margin-left: 0%;
+        padding: 0%;
+    }
+}
