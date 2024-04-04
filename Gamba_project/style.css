@@ -18,10 +18,10 @@ header h3 {
   float: left;
 }
 header h1 {
-  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-family: Brush Script MT, Brush Script Std, cursive, Arial, sans-serif;
   letter-spacing: 2px;
   font-size: 120px;
-  height: 70px;
+  height: 100px;
 }
 nav ul li{
   float: right;
