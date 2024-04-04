@@ -1,0 +1,165 @@
+.section3 {
+  .relative {
+    position: relative;
+    font-size: 2em;
+    .absolute {
+      position: absolute;
+      top: -75%;
+      left: -0.5%;
+      color: gray;
+      opacity: 0.15;
+    }
+  }
+  h1 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+  h2 {
+    font-size: 3em;
+  }
+  p {
+    width: 40%;
+  }
+  .grid {
+    display: grid;
+    padding-bottom: 5.6%;
+    grid-template-columns: repeat(4, 23%);
+    grid-template-rows: repeat(4, 25%);
+    gap: 2%;
+    grid-template-areas:
+      "box1 box1 box2 box3"
+      "box1 box1 box4 box4"
+      "box5 box6 box8 box8"
+      "box7 box7 box8 box8";
+    .box1,
+    .box8 {
+      grid-area: box1;
+      background-image: url("../img/section3_img1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      .box-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      p,
+      h4 {
+        width: 65%;
+        text-align: center;
+        visibility: hidden;
+        font-weight: bold;
+      }
+      &:hover .box-content {
+        width: 95%;
+        height: 95%;
+        margin: auto;
+        margin-top: 2%;
+        background-repeat: no-repeat;
+        background-color: rgba(73, 66, 66, 0.703);
+      }
+      &:hover p {
+        visibility: visible;
+        padding: 2%;
+      }
+      &:hover h4 {
+        visibility: visible;
+      }
+    }
+    .box2 {
+      grid-area: box2;
+    }
+    .box3 {
+      grid-area: box3;
+    }
+    .box4 {
+      grid-area: box4;
+    }
+    .box5 {
+      grid-area: box5;
+    }
+    .box6 {
+      grid-area: box6;
+    }
+    .box7 {
+      grid-area: box7;
+    }
+    .box8 {
+      grid-area: box8;
+      background-image: url("../img/section3_img8.jpg");
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .section3 {
+    .grid {
+      padding-bottom: 0%;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(8, minmax(10%, 20%));
+      column-gap: 4%;
+      grid-template-areas:
+        "box2 box3"
+        "box4 box4"
+        "box1 box1"
+        "box1 box1"
+        "box5 box6"
+        "box7 box7"
+        "box8 box8"
+        "box8 box8";
+      .box1,
+      .box8 {
+        &:hover .box-content {
+          width: 85%;
+          height: 85%;
+          margin-top: 5%;
+        }
+      }
+    }
+    p {
+      width: 100%;
+    }
+    h2 {
+      font-size: 2.2em;
+    }
+    .relative {
+      .absolute {
+        top: -65%;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .section3 {
+    .grid {
+      padding-bottom: 0%;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(8, minmax(10%, 20%));
+      gap: 0.5%;
+      grid-template-areas:
+        "box2"
+        "box3"
+        "box4"
+        "box1"
+        "box5"
+        "box6"
+        "box7"
+        "box8";
+    }
+    h2 {
+      font-size: 1.9em;
+    }
+    .relative {
+      .absolute {
+        top: -55%;
+      }
+    }
+  }
+}

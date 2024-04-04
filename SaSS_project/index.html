@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+  <title>SASS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="./css/main.css" />
+  <body>
+    <header>
+      <div class="Slides">
+        <img class="mySlides" src="./img/header1.jpg" />
+        <img class="mySlides" src="./img/header2.jpg" />
+        <img class="mySlides" src="./img/header3.jpg" />
+        <img class="mySlides" src="./img/header4.jpg" />
+
+        <button
+          class="w3-button w3-display-left header-arrows header-arrow1"
+          onclick="plusDivs(-1)"
+        >
+          <i class="fa-solid fa-arrow-left-long"></i>
+        </button>
+        <button
+          class="w3-button w3-display-right header-arrows header-arrow2"
+          onclick="plusDivs(1)"
+        >
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+
+        <div class="container w3-display-topmiddle mt-5">
+          <nav class="navbar navbar-expand-sm">
+            <div class="container">
+              <div class="navbar-brand d-grid" href="#">
+                <div class="logo">
+                  <img src="img/eiffel-tower2.png" alt="logo" />
+                </div>
+                <h3 class="vienas">
+                  RCZONE <br /><span class="fs-6 text-secondary du"
+                    >Never Give Up</span
+                  >
+                </h3>
+              </div>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarText"
+                aria-controls="navbarText"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navigationbar navbar-collapse"
+                id="navbarText"
+              >
+                <ul
+                  class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase text-white w3-display-middle"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+                <span class="navbar-text w3-display-right text-white">
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a> |
+                  <a href="">
+                    <i class="fa-solid fa-message"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="tekstas w3-display-middle">
+          <h1>INTO THE NEW</h1>
+          <p>
+            Passage its ten led hearted removal cordial. Preference any
+            astonished unreserved mrs. <br />
+            Prosperous understood middletons in conviction an uncommonly do.
+          </p>
+          <p>
+            <button><a href="#">LEARN MORE</a></button>
+          </p>
+        </div>
+        <div class="w3-display-bottommiddle apacia">
+          <ul class="d-flex">
+            <li>
+              <div class="container">
+                <img src="./img/apacia1.jpg" alt="Avatar" class="image" />
+                <div class="middle">
+                  <div class="text">01</div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="container">
+                <img src="./img/apacia2.jpg" alt="Avatar" class="image" />
+                <div class="middle">
+                  <div class="text">02</div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="container">
+                <img src="./img/apacia3.jpg" alt="Avatar" class="image" />
+                <div class="middle">
+                  <div class="text">03</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section1">
+        <div class="pirmas">
+          <h1>OUR SPECIALIZATION</h1>
+          <img src="./img/home1.jpg" />
+        </div>
+        <div class="bench_with_lamp">
+          <div class="content">
+            <img src="./img/bench-svgrepo-com.svg" />
+            <h1>WE TURN GREAT IDEAS TO MAKE CREATIVE</h1>
+            <p>
+              He as compliment unreserved projecting. Between had observe
+              pretend delight for believe. Do newspaper questions consulted
+              sweetness do. Our sportsman his unwilling fulfilled departure law.
+            </p>
+          </div>
+          <div class="sofa">
+            <div class="image">
+              <img src="./img/skyscraper-svgrepo-com.svg" />
+              <h3>ARCHITECTURE</h3>
+            </div>
+            <div class="image">
+              <img src="./img/cityscape-svgrepo-com.svg" />
+              <h3>ENVIRONMENT</h3>
+            </div>
+            <div class="image">
+              <img src="./img/metro-svgrepo-com.svg" />
+              <h3>INNOVATION NEWS</h3>
+            </div>
+            <div class="image">
+              <img src="./img/building-svgrepo-com.svg" />
+              <h3>SUCCESS STORIES</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section2">
+        <div class="first content">
+          <div class="image">
+            <img src="./img/office-block-svgrepo-com.svg" />
+          </div>
+          <h4>GREEN INFO DESIGN</h4>
+          <p>
+            Pasture he invited mr company shyness. But when shot real her.
+            Chamber her observe visited removal six sending himself boy. At
+            exquisite existence if an oh dependent excellent.
+          </p>
+          <button>VIEW MORE</button>
+        </div>
+        <div class="second content">
+          <div class="image">
+            <img src="./img/sleeping-in-bed-svgrepo-com.svg" />
+          </div>
+          <h4>LOVE SPACE</h4>
+          <p>
+            Pasture he invited mr company shyness. But when shot real her.
+            Chamber her observe visited removal six sending himself boy. At
+            exquisite existence if an oh dependent excellent.
+          </p>
+          <button>VIEW MORE</button>
+        </div>
+        <div class="third content">
+          <div class="image">
+            <img src="./svg/bench.svg" />
+          </div>
+          <h4>EXPERT INTERIOR</h4>
+          <p>
+            Pasture he invited mr company shyness. But when shot real her.
+            Chamber her observe visited removal six sending himself boy. At
+            exquisite existence if an oh dependent excellent.
+          </p>
+          <button>VIEW MORE</button>
+        </div>
+      </section>
+      <section class="section3 container">
+        <div class="relative">
+          <h1>OUR PROJECT</h1>
+          <div class="absolute"><h2>OUR PROJECT</h2></div>
+        </div>
+        <p>
+          To sorry world an at do spoil along. Incommode he depending do
+          frankness remainder to. Edward day almost active him friend thirty
+          piqued
+        </p>
+        <div class="grid">
+          <div class="box1">
+            <div class="box-content">
+              <h4>ARCHITECTURE YELLA DESIGN</h4>
+              <p>
+                Set was better abroad ham plenty secure had horses People as
+                period twenty my extent as.
+              </p>
+            </div>
+          </div>
+          <div class="box2"><img src="./img/section3_img2.jpg" /></div>
+          <div class="box3"><img src="./img/section3_img3.jpg" /></div>
+          <div class="box4"><img src="./img/section3_img4.jpg" /></div>
+          <div class="box5"><img src="./img/section3_img5.jpg" /></div>
+          <div class="box6"><img src="./img/section3_img6.jpg" /></div>
+          <div class="box7"><img src="./img/section3_img7.jpg" /></div>
+          <div class="box8">
+            <div class="box-content">
+              <h4>ARCHITECTURE YELLA DESIGN</h4>
+              <p>
+                Set was better abroad ham plenty secure had horses People as
+                period twenty my extent as.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section4">
+        <button>VIEW FULL PROJECT</button>
+      </section>
+      <section class="section5 container">
+        <div class="top">
+          <div class="relative">
+            <h1>OUR ARCHITECTURE</h1>
+            <div class="absolute"><h2>OUR ARCHITECTURE</h2></div>
+          </div>
+          <p>
+            To sorry world an at do spoil along. Incommode he depending do
+            frankness remainder to. Edward day almost active him friend thirty
+            piqued
+          </p>
+        </div>
+        <div class="first-background">
+          <div class="content">
+            <h1>MARY JANE</h1>
+            <h5>CO - FOUNDER</h5>
+            <div class="center">
+              <ul>
+                <li>
+                  <a href=""><i class="fa-regular fa-user"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-solid fa-phone"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-solid fa-camera-retro"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-solid fa-cloud"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="rodykles">
+            <a href=""><i class="fa-solid fa-circle-chevron-left"></i></a> |
+            <a href=""><i class="fa-solid fa-circle-chevron-right"></i></a>
+          </div>
+        </div>
+      </section>
+      <section class="section6">
+        <div class="container">
+          <img src="./svg/google-play.svg" alt="google-play" />
+          <img src="./svg/google.svg" alt="google" style="width: 4em" />
+          <img src="./svg/slack.svg" alt="slack" />
+          <img src="./svg/spotify.svg" alt="spotify" />
+          <img src="./svg/windows-10.svg" alt="windows-10" />
+          <img src="./svg/ethereum.svg" alt="ethereum" />
+        </div>
+      </section>
+      <section class="section7 container">
+        <div class="top">
+          <div class="relative">
+            <h1>BLOG & NEWS</h1>
+            <div class="absolute"><h2>BLOG & NEWS</h2></div>
+          </div>
+          <p>
+            To sorry world an at do spoil along. Incommode he depending do
+            frankness remainder to. Edward day almost active him friend thirty
+            piqued
+          </p>
+        </div>
+        <div class="flex">
+          <div class="box1 box">
+            <div class="mini-box">
+              <i class="fa-solid fa-inbox"></i>
+              <h3>28 JUL</h3>
+            </div>
+            <div class="content">
+              <h1>Eget vechiula lectus</h1>
+              <p>
+                <i class="fa-solid fa-user-tie"></i>Accountant
+                <i class="fa-solid fa-anchor"></i> Provider
+              </p>
+              <p>
+                To sorry world an at do spoil along. Incommode he depending do
+                frankness remainder to. Edward day almost active him friend
+                thirty piqued
+              </p>
+              <a href="">VIEW MORE</a>
+            </div>
+          </div>
+          <div class="box2 box">
+            <div class="mini-box">
+              <i class="fa-solid fa-inbox"></i>
+              <h3>04 AUG</h3>
+            </div>
+            <div class="content">
+              <h1>Eget vechiula lectus</h1>
+              <p>
+                <i class="fa-solid fa-user-tie"></i>Accountant
+                <i class="fa-solid fa-anchor"></i> Provider
+              </p>
+              <p>
+                To sorry world an at do spoil along. Incommode he depending do
+                frankness remainder to. Edward day almost active him friend
+                thirty piqued
+              </p>
+              <a href="">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="left">
+            <h1>REQUEST A CALL BACK</h1>
+            <p>
+              Civility vicinity graceful is it at. Improve up at to on mention
+              perhaps raising. Way building not get formerly her peculiar. Up
+              uncommonly prosperous sentiments simplicity acceptance to so.
+              Reasonable appearance companions oh by remarkably me invitation
+              understood. Pursuit elderly ask perhaps all.
+            </p>
+          </div>
+          <div class="right">
+            <input type="text" placeholder="Name*" />
+            <input type="email" placeholder="Email*" />
+            <input type="text" placeholder="Subject" />
+            <textarea
+              id="message"
+              cols="20"
+              rows="2"
+              placeholder="Message"
+            ></textarea>
+            <button>SEND NOW</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        COPYRIGHT &copy; PSD THINGS BY NEWSPAPER ALL RIGHTS RESERVED
+      </div>
+    </footer>
+    <script src="./kodas.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

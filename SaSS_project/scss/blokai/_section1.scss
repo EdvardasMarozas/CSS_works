@@ -1,0 +1,183 @@
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  background-image: url("../img/city_layout.jpg");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  margin-top: 5%;
+  .pirmas {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(49, 46, 46, 0.907),
+        rgba(49, 46, 46, 0.907)
+      ),
+      url("../img/home2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-block: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2.5%;
+    img {
+      height: 40vh;
+      width: 35em;
+      padding-left: 4%;
+    }
+    h1 {
+      transform: rotate(180deg);
+      writing-mode: vertical-lr;
+      text-align: right;
+      color: gray;
+      padding-right: 11%;
+    }
+  }
+  .bench_with_lamp {
+    margin-left: 5%;
+    p {
+      width: 70%;
+      line-height: 200%;
+    }
+    h1 {
+      padding-top: 2%;
+      font-size: x-large;
+      font-weight: bold;
+      width: 80%;
+    }
+    img {
+      width: 5em;
+    }
+    .sofa {
+      margin-top: 10%;
+      margin-left: 5%;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      background-image: linear-gradient(
+          to right,
+          rgba(255, 255, 255, 0.7),
+          rgba(255, 255, 255, 0.7)
+        ),
+        url("../img/sofa.jpg");
+      background-position: center;
+      img {
+        width: 30%;
+      }
+      .image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 15vh;
+        padding-inline: 1%;
+        &:hover {
+          background-color: rgb(104, 68, 46);
+          cursor: pointer;
+        }
+      }
+      h3 {
+        font-size: large;
+        margin-top: 5%;
+      }
+    }
+  }
+}
+@media (max-width: 1350px) {
+  .section1 {
+    .pirmas {
+      img {
+        width: 20em;
+        height: 40vh;
+      }
+    }
+  }
+}
+@media (max-width: 1010px) {
+  .section1 {
+    padding-left: 8%;
+    .pirmas {
+      align-self: flex-start;
+      width: 135%;
+      height: 35vh;
+      padding-left: 1.5%;
+      h1 {
+        font-size: 1.8em;
+        text-align: center;
+      }
+      img {
+        width: 100%;
+        height: 30vh;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .section1 {
+    .pirmas {
+      width: 200%;
+      height: 30vh;
+      img {
+        height: 25vh;
+      }
+      h1 {
+        font-size: 1.5em;
+      }
+    }
+    .bench_with_lamp {
+      width: 50%;
+      margin-right: 0%;
+      .content {
+        padding-left: 10%;
+      }
+      .sofa {
+        position: relative;
+        width: 220%;
+        right: 125%;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .section1 {
+    flex-wrap: wrap;
+    padding-left: 0%;
+    padding-top: 10%;
+    background-size: 50%;
+    background-position: top;
+    .pirmas {
+      width: 80%;
+      margin-right: 0%;
+      h1 {
+        font-size: 1.6em;
+      }
+    }
+    .bench_with_lamp {
+      width: 100%;
+      margin-top: 5%;
+      margin-left: 0%;
+      p,
+      h1 {
+        width: 100%;
+      }
+      .content {
+        padding-left: 0%;
+        text-align: center;
+      }
+      .sofa {
+        position: unset;
+        width: 70%;
+        right: 0;
+        margin-inline: auto;
+        flex-direction: column;
+        .image {
+          width: 100%;
+        }
+        img {
+          width: 6em;
+        }
+      }
+    }
+  }
+}

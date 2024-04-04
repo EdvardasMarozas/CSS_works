@@ -1,0 +1,769 @@
+body{
+  margin: 0%;
+}
+header {
+  background-image: url(img/photo2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 6%;
+  color: white;
+}
+header h3 {
+  font-family: Brush Script MT, serif;
+  letter-spacing: 2px;
+  font-size: 50px;
+  margin-left: 12%;
+  padding-bottom: 5%;
+  float: left;
+}
+header h1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  letter-spacing: 2px;
+  font-size: 120px;
+  height: 70px;
+}
+nav ul li{
+  float: right;
+  display: inline;
+  list-style-type: none;
+  padding: 2%;
+}
+nav ul{
+  margin-top: 0%;
+  margin-right: 7%;
+  padding-bottom: 4%;
+  padding-top: 3%;
+}
+header a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+header a:hover, a:active{
+  color: lightgreen;
+}
+#pirmo_vidurys{
+  clear: both;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 200px;
+  font-size: larger;
+  letter-spacing: 3px;
+  padding-bottom: 6%;
+}
+#simboliai{
+  font-size: xx-large;
+  height: 0px;
+}
+.estrellas {
+  position: relative;
+  margin: -2%;
+  font-size: medium;
+}
+.estrellas span {
+  position: absolute;
+  bottom: 0;
+  left: 49.5%;
+  height: 100%;
+  line-height: 1000%;
+  text-align: center;
+  transform-origin: top center;
+}
+.estrellas span:nth-of-type(1)  {
+  transform: rotate(50deg);
+}
+.estrellas span:nth-of-type(2)  {
+  transform: rotate(39deg);
+}
+.estrellas span:nth-of-type(3)  {
+  transform: rotate(30deg);
+}
+.estrellas span:nth-of-type(4)  {
+  transform: rotate(20deg);
+}
+.estrellas span:nth-of-type(5)  {
+  transform: rotate(13deg);
+}
+.estrellas span:nth-of-type(6)  {
+  transform: rotate(4deg);
+}
+.estrellas span:nth-of-type(7)  {
+  transform: rotate(-6deg);
+}
+.estrellas span:nth-of-type(8)  {
+  transform: rotate(-22deg);
+}
+.estrellas span:nth-of-type(9)  {
+  transform: rotate(-30deg);
+}
+.estrellas span:nth-of-type(10)  {
+  transform: rotate(-40deg);
+}
+.estrellas span:nth-of-type(11)  {
+  transform: rotate(-50deg);
+}
+header button{
+  width: 9%;
+  height: 40px;
+  border-radius: 20px 20px 20px 20px;
+  border-color: lightgreen;
+  background-color: lightgreen;
+  color: white;
+}
+.antras{
+  background-color: white;
+  text-align: center;
+  font-size: large;
+}
+.antras h1{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 50px;
+  font-family: Lucida Handwriting,ipact,fantasy;
+}
+.antras img{
+  width: 25%;
+}
+.s1,.s2,.s3 {
+  float: left;
+  text-align: center;
+  line-height: 130%;
+  word-spacing: 2px;
+  margin-top: 1%;
+}
+.s1 {
+  width: 25%;
+  margin-left: 2.5%;
+}
+.s3 {
+  width: 25%;
+}
+.s2{
+  background-image: url("img/2vidurys2.jpg");
+  background-position: center center;
+  border-top-right-radius: 800%;
+  border-top-left-radius: 800%;
+  border-bottom-right-radius: 800%;
+  border-bottom-left-radius: 800%;
+  width: 30%;
+  height: 400px;
+  background-repeat: no-repeat;
+  margin: 7%;
+  text-align: center;
+  color: lightgreen;
+  font-size: xx-large;
+  font-family: Lucida Handwriting,ipact,fantasy;
+}
+
+.antras:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.antras h3{
+  font-size: x-large;
+}
+.trecias{
+  background-image: url("img/lapai.jpg");
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 600px;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+.trecias .lapai{
+  border: 3px solid white;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+  padding-bottom: 3.5%;
+}
+.lapai h3{
+  color: lightgreen;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 40px;
+  height: 0px;
+  position: relative;
+  top: 75px;
+}
+.lapai h1{
+  font-family: Copperplate,Brush Script MT;
+  color: white;
+  font-size: 110px;
+  height: 25px;
+}
+.lapai p{
+  color: rgb(194, 177, 177);
+}
+.lapai button{
+  width: 10%;
+  height: 40px;
+  border-radius: 20px 20px 20px 20px;
+  border-color: lightgreen;
+  background-color: lightgreen;
+  color: white;
+}
+.ketvirtas{
+  background-color: white;
+}
+.ketvirtas img{
+  width: 17em;
+  height: 20vh;
+}
+.ketvirtas h1{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 60px;
+  font-family: Lucida Handwriting,ipact,fantasy;
+}
+.ketvirtas ul{
+  list-style-type: none;
+}
+.virsus a{
+  color: black;
+  text-decoration: none;
+}
+.virsus a:hover,a:active{
+  color: chartreuse;
+  border-bottom: 2px solid;
+}
+.virsus li{
+  text-align: center;
+  display: inline;
+  margin: 2%;
+  font-size: larger;
+}
+.virsus{
+  margin-top: 3%;
+  text-align: center;
+}
+.eile{
+  margin-top: 3%;
+  margin-right: 3%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.eile li{
+  text-align: center;
+}
+.ketvirtas figure{
+  box-shadow: 1px 1px 1px 2px rgb(248, 245, 245);
+}
+.ketvirtas figcaption{
+  background-color: rgb(248, 245, 245);
+  padding-top: 0.02px;
+  padding-bottom: 1px;
+}
+.pinigai{
+  color: chartreuse;
+  font-size: x-large;
+}
+.pinigai::before{
+  content: "\0024";
+  font-size: medium;
+  vertical-align: 8px;
+}
+.ketvirtas h3{
+  height: 8px;
+}
+.ketvirtas p{
+  height: 0px;
+}
+.ketvirtas figure a{
+  border: 1px solid white;
+  border-radius: 50%;
+  visibility: hidden;
+  text-decoration: none;
+  margin: 12px;
+  padding: 3px;
+}
+.ketvirtas figure:hover{
+  box-shadow: 1px 1px 5px 4px #b6b5b5;
+}
+.ketvirtas figure:hover img{
+  height: 14vh;
+}
+.ketvirtas figure:hover figcaption{
+  background-color: chartreuse;
+  padding-bottom: 1.5em;
+}
+.ketvirtas figure:hover .pinigai{
+  color: white;
+}
+.ketvirtas figure:hover p{
+  color: white;
+  height: 2em;
+}
+.ketvirtas figure:hover a{
+  visibility: visible;
+  color: white;
+}
+.ketvirtas button{
+  margin-left: 45%;
+  margin-top: 2%;
+  text-align: center;
+  width: 9%;
+  height: 40px;
+  border-radius: 20px 20px 20px 20px;
+  border-color: #b6b5b5;
+  background-color: white;
+  color: #b6b5b5;
+}
+footer{
+  background-color: rgb(245, 242, 242);
+  margin-top: 7%;
+  padding-top: 1%;
+  position: relative;
+}
+footer h1{
+  text-align: center;
+  font-size: 60px;
+  font-family: Lucida Handwriting,ipact,fantasy;
+  margin-top: 6%;
+}
+.first img{
+  float: left;
+  margin-left: 13%;
+  width: 40%;
+  height: 44vh;
+  margin-top: 2%;
+  opacity: 0.9;
+}
+
+footer .linija::before{
+  content: 	"\25EF";
+  background-color: green;
+  border-radius: 50px;
+  border: 0.4em solid white;
+}
+footer #linija1{
+  position: relative;
+  right: 10.5%;
+  top: 755%;
+}
+footer #hr1{
+  position: relative;
+  width: 8%;
+  right: 38%;
+  top: 690%
+}
+footer #linija2{
+  position: relative;
+  right: 2%;
+  top: 772%;
+}
+footer #hr2{
+  position: relative;
+  width: 5%;
+  right: 28%;
+  top: 710%
+}
+footer #linija3{
+  position: relative;
+  right: -0.5%;
+  top: 904%;
+}
+footer #hr3{
+  position: relative;
+  width: 4%;
+  right: 25%;
+  top: 840%
+}
+footer .second{
+  float: left;
+  width: 34%;
+  margin-left: 5%;
+  font-size: larger;
+}
+footer p{
+  margin-right: 15%;
+}
+footer .linija, hr{
+  display: none;
+}
+footer h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 10%;
+}
+#gray{
+  color: darkgray;
+}
+#stars{
+  margin-left: 40px;
+  font-size: medium ;
+}
+footer p{
+  line-height: 170%;
+}
+footer ul{
+  position: relative;
+  right: 20px;
+}
+footer button{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    border-color: lightgreen;
+    background-color: lightgreen;
+    color: white;
+}
+footer .third img{
+  width: 23%;
+  height: 250px;
+  margin: 1%;
+  box-shadow: 1px 1px 5px 4px #b6b5b5;
+}
+footer .third {
+  clear: both;
+  display: flex;
+  padding-top: 4%;
+  justify-content: center;
+  align-items: center;
+}
+.prev, .next {
+  cursor: pointer;
+  width: auto;
+  padding: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 8px 1px rgb(216, 213, 213);
+}
+.prev{
+  border-radius: 50%;
+  opacity: 0.8;
+  margin-right: 2%;
+}
+.next {
+  border-radius: 50%;
+  opacity: 0.2;
+  margin-left: 2%;
+}
+footer .third a:hover{
+  color: darkgreen;
+}
+footer .third a:active{
+  color: darkgreen;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 1;
+}
+@media screen and (max-width: 1000px){
+  header button{
+    width: 15%;
+  }
+  header nav  ul li{
+    padding: 1.5%;
+    
+  }
+  header nav ul{
+    margin-right: 5%;
+  }
+  .s2{
+    background-size: 160%;
+    width: 35%;
+    height: 32vh;
+    margin-top: 20%;
+  }
+  .s2 p{
+    font-size: x-large;
+    margin-top: 0%;
+    position: relative;
+    bottom: 1.5em;
+  }
+  .s1{
+    margin-left: 1%;
+  }
+  .trecias button {
+    width: 17%;
+  }
+  .ketvirtas img{
+    width: 12em;
+  }
+  .ketvirtas button{
+    width: 15%;
+    margin-left: 43%;
+  }
+  footer .second{
+    width: 40%;
+  }
+  .first img{
+    height: 35vh;
+  }
+  .second h2{
+    margin-top: 5%;
+    font-size: x-large
+  }
+  .second ul{
+    margin-bottom: 0%;
+  }
+  footer p{
+    line-height: 100%;
+  }
+}
+@media screen and (max-width:768px) {
+  header{
+    background-size: 270%;
+  }
+  header nav ul li{
+    clear: right;
+    padding: 12%;
+  }
+  header ul{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 75%;
+    margin-bottom: -30%;
+  }
+  header button{
+    width: 20%;
+  }
+  .antras h1{
+    margin-bottom: 0%;
+  }
+  .s1,.s2,.s3{
+    clear: left;
+  }
+  .s1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  .antras p{
+    margin: 3%;
+  }
+  .antras img{
+    width: 8em;
+  }
+  .s2{
+    background-size: 180%;
+    width: 40%;
+    height: 32vh;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 30%;
+  }
+  .s2 p{
+    margin-top: 0%;
+    bottom: 0em;
+  }
+  .s3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  .trecias{
+    background-size: 170%;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .trecias button{
+    width: 21%;
+  }
+  .lapai{
+    padding: 5%;
+  }
+  .lapai h3{
+    margin: 0%;
+  }
+  .lapai h1{
+    padding-top: 5%;
+  }
+  .lapai p{
+    margin-bottom: 15%;
+  }
+  .ketvirtas img{
+    width: 12em;
+  }
+  .ketvirtas button{
+    width: 22%;
+    margin-left: 40%;
+  }
+  .eile{
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 0%;
+  }
+  .virsus {
+    padding-left: 0%;
+  }
+  .first img{
+    height: 50vh;
+  }
+  .second{
+    font-size: 1em;
+  }
+  footer button{
+    width: 40%;
+  }
+  .third{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #stars{
+    margin-left: 15%
+  }
+}
+@media screen and (max-width:576px) {
+  header{
+    background-size: 900%;
+  }
+  header nav ul li{
+    clear: right;
+    padding: 12%;
+  }
+  header nav{
+    width: 50%;
+    text-align: center;
+    margin-left: 28%;
+    font-size: x-large;
+  }
+  header ul{
+    clear: both;
+    margin-left: 0%;
+    padding: 0%;
+    margin-bottom: -60%;
+  }
+  header h3{
+    text-align: center;
+    margin-left: 35%;
+    font-size: 4em;
+  }
+  header button{
+    width: 25%;
+  }
+  header h1{
+    font-size: 5em;
+    margin-top: 30%;
+  }
+  .s1,.s2,.s3{
+    clear: left;
+  }
+  .antras h1{
+    font-size: xx-large;
+  }
+  .s1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: unset;
+    width: 100%;
+    margin: 0%;
+  }
+  .antras p{
+    margin: 3%;
+  }
+  .antras img{
+    width: 8em;
+  }
+  .s2{
+    background-size: 180%;
+    width: 50%;
+    height: 30vh;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .s2 p{
+    margin-top: 0%;
+    font-size: 0.7em;
+  }
+  .s3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: unset;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .trecias{
+    background-size: 300%;
+  }
+  .trecias h3{
+    font-size: xx-large;
+  }
+  .trecias h1{
+    font-size: 5em;
+    margin-top: 40%;
+  }
+  .trecias button{
+    width: 40%;
+  }
+  .ketvirtas img{
+    width: 17em;
+  }
+  .ketvirtas button{
+    width: 30%;
+    margin-left: 34%;
+  }
+  footer .first,.second {
+    clear: both;
+  }
+  footer .first img{
+    width: 100%;
+    margin-left: 0%;
+  }
+  footer .second{
+    width: 100%;
+  }
+  footer button{
+    margin-left: 24%;
+  }
+  footer .third{
+    display: flex;
+    flex-direction: column;
+  }
+  footer .third img{
+    width: 90%;
+    margin: 0;
+    margin-top: 5%;
+    height: 25vh;
+  }
+  .prev{
+    border-radius: 50%;
+    opacity: 0.8;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    margin-top: 10%;
+  }
+  .next {
+    border-radius: 50%;
+    opacity: 0.2;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+}
